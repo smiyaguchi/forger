@@ -1,0 +1,13 @@
+schema:
+  - name: foo
+    type: string
+  - name: bar
+    type: int
+  - name: parent
+    type: object
+    schema:
+      - name: a
+        type: bool
+      - name: b
+        type: string
+
